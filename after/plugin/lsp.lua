@@ -10,8 +10,3 @@ vim.diagnostic.config({
   float = true,
 })
 local nvim_lsp = require('lspconfig')
-nvim_lsp.hls.setup{}
-vim.g.LanguageClient_serverCommands = {
-  scala = { 'metals', '--lsp' },
-}
-
