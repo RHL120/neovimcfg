@@ -1,0 +1,11 @@
+vim.opt.nu = true
+vim.opt.relativenumber = true
+vim.smartindent = true
+vim.opt.hlsearch = false
+vim.opt.incsearch = true
+vim.cmd("set scrolloff=25")
+vim.signcolumn = "yes"
+vim.g.mapleader = " "
+vim.opt.colorcolumn = "80"
+vim.g.nord_uniform_diff_background = true
+vim.g.filetye_plugin_indent = true
