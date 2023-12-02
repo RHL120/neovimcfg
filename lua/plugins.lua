@@ -5,7 +5,7 @@ return require('packer').startup(function(use)
   use {'ShinKage/idris2-nvim', requires = {'neovim/nvim-lspconfig', 'MunifTanjim/nui.nvim'}}
   use 'wbthomason/packer.nvim'
   use {
-	'nvim-telescope/telescope.nvim', tag = '0.1.0',
+	'nvim-telescope/telescope.nvim', tag = '0.1.x',
 -- or                            , branch = '0.1.x',
 	requires = { {'nvim-lua/plenary.nvim'} }
 }
