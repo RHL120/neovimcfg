@@ -48,4 +48,11 @@ return require('packer').startup(function(use)
   }
 
   use 'rust-lang/rust.vim'
+  use {
+	  "lukas-reineke/headlines.nvim",
+	  after = "nvim-treesitter",
+	  config = function()
+		  require("headlines").setup()
+	  end,
+  }
 end)
