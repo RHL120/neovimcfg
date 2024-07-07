@@ -41,7 +41,7 @@ return require('packer').startup(function(use)
     config = function() require("nvim-autopairs").setup {} end
 }
   use 'vim-airline/vim-airline-themes'
-  use {'akinsho/bufferline.nvim', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons'}
+  use {'akinsho/bufferline.nvim', tag = "v4.*", requires = 'nvim-tree/nvim-web-devicons'}
   use {
 	  'nvim-lualine/lualine.nvim',
 	  requires = { 'kyazdani42/nvim-web-devicons', opt = true }
@@ -55,4 +55,5 @@ return require('packer').startup(function(use)
 		  require("headlines").setup()
 	  end,
   }
+  use 'slint-ui/vim-slint'
 end)
