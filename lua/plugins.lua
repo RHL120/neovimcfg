@@ -12,7 +12,8 @@ return require('packer').startup(function(use)
   use ('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
   use ('itchyny/vim-haskell-indent')
   use ('alx741/vim-hindent')
-  use 'shaunsingh/nord.nvim'
+  use 'shaunsingh/nord.nvim' 
+  use 'morhetz/gruvbox'
   use ('tpope/vim-fugitive')
   use {
   'VonHeikemen/lsp-zero.nvim',
